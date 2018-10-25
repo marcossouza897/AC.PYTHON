@@ -56,10 +56,10 @@ class RPG:
     def __init__(self):
         print('U QUE É UM RPG DE MESA ?')
 
-    def pergunte_organizador_eventos(self):
-        print('RPG ou Role Playing Game é um jogo de interpretação de personagens. o Mestre da masmorra (DM, ou Dungeon Master) que é praticamente Deus, narra uma história, descrevendo cada cenário e seus acontecimentos. Os jogadores (2-6 jogadores é o indicado) por sua vez, falam o que gostariam de fazer. Para cada ação mais complexa, dados precisam ser rolados para saber se a ação foi bem sucedida. Dessa maneira o jogo se desenrola dentro na imaginação de cada um!')
+    def como_jogar(self):
+        print('RPG ou Role Playing Game é um jogo de interpretação de personagens. o Mestre da masmorra (DM, ou Dungeon Master) que é \npraticamente Deus, narra uma história, descrevendo cada cenário e seus acontecimentos. Os jogadores (2-6 jogadores é o indicado) por sua vez, falam o que gostariam de fazer. Para cada ação mais complexa, dados precisam ser rolados para saber se a ação foi bem sucedida. Dessa maneira o jogo se desenrola dentro na imaginação de cada um!')
         org_eventos = como_jogar()
-        org_eventos.como_jogar()
+        org_eventos.Hoteleiro()
 
     def __del__(self):
         print('Obrigado organizar de eventos, deu tudo certo')
