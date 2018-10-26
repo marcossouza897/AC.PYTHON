@@ -5,7 +5,7 @@ class Organizador_eventos:
 
     def organizar(self):
         self.hoteleiro = Hoteleiro()
-        Hoteleiro().reseva_hotel()
+        self.hoteleiro.reseva_hotel()
         
         self.fornecedor = Fornecedor()
         self.fornecedor.set_cozinha()
